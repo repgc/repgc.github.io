@@ -10,3 +10,42 @@ ul li {
     margin-top: 0;
     margin-left: 20px;
     }
+    
+
+
+
+#nav
+ul {
+    list-style: none;  
+    position: relative;}
+
+#nav 
+ul li { float: left;}
+
+#nav
+ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav
+ul ul li {
+    float: none;
+}
+
+#nav
+ul li:hover > ul {
+    display:block;
+}
+
+#nav
+ul::after {
+    content: "";
+    display: block;
+    clear: both
+
+}
+
+
+
