@@ -1,2 +1,16 @@
 #h1
-{color: blue;}
+{color: darkslategrey;}
+
+  
+  h2 + p::first-letter {
+    color: white;
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 pink;
+    font-size: 250%;
+    float: left;
+  }
+
+  p + p {
+    text-indent: 2em;
+   } 

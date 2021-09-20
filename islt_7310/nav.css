@@ -1,4 +1,12 @@
 #nav
+{
+    border:pink solid 3px;
+    
+}
+
+
+
+
 ul li {
     display: inline; /*here we are seeing another value inline that allows us to keep all menu items in line */
     border: none;
@@ -10,42 +18,25 @@ ul li {
     margin-top: 0;
     margin-left: 20px;
     }
-    
 
-
-
-#nav
-ul {
-    list-style: none;  
-    position: relative;}
-
-#nav 
-ul li { float: left;}
-
-#nav
-ul ul {
+li ul {
+    position: relative;
+    left: 149px;
+    top: 0;
     display: none;
-    position: absolute;
-    top: 100%;
-}
-
-#nav
-ul ul li {
-    float: none;
-}
-
-#nav
-ul li:hover > ul {
-    display:block;
-}
-
-#nav
-ul::after {
-    content: "";
+        }
+       
+ul li a {
     display: block;
-    clear: both
+    text-decoration: none;
+    color: #777;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+           }
 
-}
 
 
 
+li:hover ul { display: block; }
