@@ -14,3 +14,24 @@
   p + p {
     text-indent: 2em;
    } 
+
+
+
+  
+
+  
+
+main {
+  height: 160px;
+  grid-template: 120px/ repeat(3, 180px);
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  height: 400px;
+  align-items: center;
+  justify-items: center;
+}
+
+
