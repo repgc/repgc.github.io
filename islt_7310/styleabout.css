@@ -84,5 +84,23 @@ font-family: 'Roboto', sans-serif;}
     height: 100%;
     margin: 0;
   }
+
+  /*making my style sheet printable*/
     
-  
+  @media print {
+    .Navigation {
+        display: none;
+    }
+    .Image {
+        display: none;
+    }
+    .Content {
+        font-size: 12pt;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        margin: 1in;
+        text-align: center;
+        width: 100;
+    }
+
+}
