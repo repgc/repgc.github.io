@@ -77,7 +77,13 @@ font-family: 'Roboto', sans-serif;}
       border: 5px solid black;
       padding: 1%;
       margin: auto;
+      transition: 1s;
     }
+
+  .Footer:hover {
+    background-color: lightpink;
+    image-rendering: optimizeQuality;
+  }
   
   
   html, body , .container {
