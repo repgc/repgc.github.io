@@ -72,17 +72,37 @@ ul li ul:focus {
 font-family: 'Roboto', sans-serif;}
   
   .Footer { grid-area: Footer;
+      background-image: url(images/backgroundpic.jpeg);
       background-color: lightgrey;
      text-align: center;
       border: 5px solid black;
       padding: 1%;
       margin: auto;
       transition: 1s;
+      position: relative;
     }
 
+/*THIS CHANGES THE FOTTER PINK WHEN YOU HOVER OVER
   .Footer:hover {
     background-color: lightpink;
     image-rendering: optimizeQuality;
+  }*/
+
+
+  #icon1:hover,
+  #icon1:focus-within {
+    cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+
+  #icon2:hover,
+  #icon2:focus-within {
+    cursor: pointer;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
   }
   
   
