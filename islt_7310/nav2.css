@@ -4,20 +4,21 @@ a {
   
   nav {
     font-family: monospace;
+    font-size: 22px;
   }
   
   ul {
-    background: lightpink;
+    /*background: lightpink;*/
     list-style: none;
     margin: 0;
-    padding-left: 0;
+    padding: 15px 15px 15px 15px;
   }
   
   li {
-    color: pink;
-    background: lightpink;
-    display: inline;
-    float: left;
+    /*color: pink;*/
+    /*background: lightpink;*/
+    display: inline-block;
+    /*float: left;*/
     padding: 1rem;
     position: relative;
     text-decoration: none;
@@ -45,9 +46,10 @@ a {
     min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: 1rem;
+    margin-top: 2rem;
     left: 0;
     display: none;
+    
   }
   
   ul li:hover > ul,
@@ -56,10 +58,20 @@ a {
   ul li ul:focus {
      visibility: visible;
      opacity: 1;
-     display: block;
+     display: inline;
+    
   }
   
   ul li ul li {
-    clear: both;
-    width: 100%;
+    /*clear: both;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*display: inline;*/
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
   }

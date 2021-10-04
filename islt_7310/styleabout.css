@@ -64,19 +64,23 @@ ul li ul:focus {
   }
   
   .Image { grid-area: Image;
-  padding: 5%;}
+  padding: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20pt;
+}
   
   .Content { grid-area: Content; 
-  margin-left: 2em;
+  margin-right: 5em;
   font-size: 18px;
 font-family: 'Roboto', sans-serif;
+line-height: 20pt;
 }
   
 .Footer { grid-area: Footer;
   background-image: url(images/backgroundpic.jpeg);
   background-color: lightgrey;
  text-align: center;
-  border: 5px solid black;
+  border: 3px solid black;
   padding: 1%;
   margin: auto;
   transition: 1s;
