@@ -62,6 +62,7 @@ ul li ul:focus {
     padding: 15px 15px 15px 15px;
     font-size: 150%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
   }
   
   .Image { grid-area: Image;
@@ -77,16 +78,18 @@ ul li ul:focus {
   .Footer { grid-area: Footer;
       background-image: url(images/backgroundpic.jpeg);
       background-color: lightgrey;
+      display: inline-block;
      text-align: center;
       border: 3px solid black;
-      padding: 1%;
+      /*padding: 1%;*/
       margin: auto;
       transition: 1s;
       position: fixed;
       bottom: 0;
       left: 0;
       right: 0;
-      margin-top: 100px;
+      /*margin-top: 100px;*/
+      margin-top: 2%;
     }
 
 /*THIS CHANGES THE FOTTER PINK WHEN YOU HOVER OVER

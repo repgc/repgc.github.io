@@ -61,6 +61,7 @@ ul li ul:focus {
     padding: 15px 15px 15px 15px;
     font-size: 150%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
   }
   
   .Image { grid-area: Image;
