@@ -101,6 +101,8 @@ a {
 /*special hover to display the drop-down*/
 nav>ul>li:hover>ul{
     display: block;
+    width: 100%;
+    z-index: 1;
 }
 
 /* [ON SMALL SCREENS] */
