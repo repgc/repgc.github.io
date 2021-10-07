@@ -74,6 +74,26 @@ ul li ul:focus {
   font-family: 'Roboto', sans-serif;
   line-height: 20pt;
   }
+
+table{
+  width:70%;
+}
+table>caption{
+    font-size:150%;
+}
+table>thead>tr>th{
+    font-size:125%;
+}
+table, tr, th, td {
+    border:2px solid black;
+    border-collapse:collapse;
+}
+tr:nth-child(odd) {
+    background-color: lightpink;
+}
+tr>th{
+    background-color: lightgray;
+}
   
   .Footer { grid-area: Footer;
       background-image: url(images/backgroundpic.jpeg);
