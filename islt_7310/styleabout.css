@@ -75,6 +75,10 @@ ul li ul:focus {
 font-family: 'Roboto', sans-serif;
 line-height: 20pt;
 }
+
+.Video {
+  margin-right: 300px;
+}
   
 .Footer { grid-area: Footer;
   background-image: url(images/backgroundpic.jpeg);
@@ -84,7 +88,10 @@ line-height: 20pt;
   padding: 1%;
   margin: auto;
   transition: 1s;
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
   #icon1:hover,
@@ -126,5 +133,22 @@ line-height: 20pt;
         text-align: center;
         width: 100;
     }
+
+    @media (min-width: 600px) {
+      p {
+        font-size: 1.25rem;
+      }
+    }
+
+    /* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  .video{
+      margin-left: -75px;
+      height: 215px;
+      width: 360px;
+    }
+}
+  
+
 
 }
