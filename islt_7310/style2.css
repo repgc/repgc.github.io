@@ -54,7 +54,8 @@ ul li ul:focus {
       color: black;
       text-size-adjust: 70%;
       text-align: center;
-      font-family: Georgia, 'Times New Roman', Times, serif
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 5px;
     }
   
   .Navigation { grid-area: Navigation; 
@@ -74,6 +75,7 @@ ul li ul:focus {
   font-family: 'Roboto', sans-serif;
   line-height: 20pt;
   }
+
 
 table{
   width:70%;
@@ -111,6 +113,23 @@ tr>th{
       /*margin-top: 100px;*/
       margin-top: 2%;
     }
+
+label {
+  float: left;
+  width: 5em;
+  text-align: right;
+  
+}
+
+input {
+  margin-left: 1em;
+  margin-bottom: .5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+#button {
+  margin-left: 7em;
+}
 
 /*THIS CHANGES THE FOTTER PINK WHEN YOU HOVER OVER
   .Footer:hover {
